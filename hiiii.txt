@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivasi untuk Maulid</title>
+    <style>
+        body {
+            display: none;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+            background-color: #f0f8ff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .message {
+            font-size: 18px;
+            margin-top: 20px;
+            color: #4CAF50;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hai Maulid!</h1>
+        <p class="message">
+            Semangat kerja dan magang di Bali, semua ada jalannya.<br>
+            Aku bangga padamu, susah senangmu aku sertakan.<br>
+            Terimakasih sudah tidak menyerah, maaf kejadian sebelumnya yang membuat kita lelah.<br>
+            Semoga pembelajaran kemarin menguatkan kita. I LOVE YOU MAFIA<br>
+            Dari aku, JOA
+        </p>
+    </div>
+
+    <script>
+        // Pertanyaan pertama
+        var answer1 = prompt("Siapa yang paling cantik?");
+        if (answer1.toLowerCase() !== "maulid") {
+            alert("Jawaban salah! Silakan coba lagi.");
+            window.location.reload();
+        } else {
+            // Pertanyaan kedua
+            var answer2 = prompt("3 huruf yang menguasai hatimu?");
+            if (answer2.toLowerCase() !== "joa") {
+                alert("Jawaban salah! Silakan coba lagi.");
+                window.location.reload();
+            } else {
+                // Pertanyaan ketiga
+                var answer3 = prompt("Janji gabakalan ninggalin JOA yang baik hati, ganteng, walau saat ini masih kere, tapi aku yakin si JOA nanti kaya kok, kalau nggak, mungkin saat bersama baru kayaknya. Mau kan sayang? JANJI??? (jawab 'janji' aja)");
+                if (answer3.toLowerCase() !== "janji") {
+                    alert("Jawaban salah! Silakan coba lagi.");
+                    window.location.reload();
+                } else {
+                    // Jika semua jawaban benar, tampilkan halaman
+                    document.body.style.display = "block";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
